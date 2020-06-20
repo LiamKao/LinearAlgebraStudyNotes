@@ -19,6 +19,7 @@
 
 * * *
 
+
 ### F<sup>n</sup>
 
 #### 1.10 Definition $\mathbf{F}^n$
@@ -82,6 +83,9 @@ $$1v = v, \; \forall v \in \mathbf{V} $$
 - **distributive properties**
 $$a(u + v) = au + av \; and \; (a + b)v = av + bv,\; \forall a, b \in \mathbf{F} \; and \; \forall u,v \in \mathbf{V}$$
 
+##### notes
+交換性(commutativity), 分配性(distributive properties), 結合性(associativity), 乘法單位元素(multiplicative identity), 加法單位元素(additive identity)
+
 #### 1.20 Definition ***vector***, ***point***
 Elements of a vector space are called ***vectors*** or ***points***.
 
@@ -132,14 +136,35 @@ $$u,w \in \mathbf{U} \implies u+w \in \mathbf{U}$$
 - closed under scalar multiplication
 $$a \in \mathbf{F} \; and \; u \in \mathbf{U} \implies au \in \mathbf{U}$$
 
-
-
 * * *
 
 ### Sum of Subspaces
 
+##### 1.36 Definition ***sum of subsets***
+Suppose $\mathbf{U}_1,...,\mathbf{U}_m$ are subsets of $\mathbf{V}$. The sum of $\mathbf{U}_1,...,\mathbf{U}_m$, denoted
+$\mathbf{U}_1+,...,+\mathbf{U}_m$, is the set of all possible sums of elements of $\mathbf{U}_1,...,\mathbf{U}_m$.
+More precisely,
+$$\mathbf{U}_1,...,\mathbf{U}_m = \{u_1,...,u_m: u_1 \in \mathbf{U}_1,...,u_m \in \mathbf{U}_m \}$$
+
 * * *
 
 ### Direct Sum
+
+
+#### 1.40 Definition ***direct sum***
+Suppose $\mathbf{U}_1,...,\mathbf{U}_m$ are subspaces of $\mathbf{V}$.
+- The sum $\mathbf{U}_1+...+\mathbf{U}_m$ is called a ***direct sum*** if each element of $\mathbf{U}_1+...+\mathbf{U}_m$ can be written in only one way as a sum $u_1+...+u_m$, where each $u_j \in \mathbf{U}_j$
+- If $\mathbf{U}_1+...+\mathbf{U}_m$ is a direct sum, then$\mathbf{U}_1 \oplus...\oplus \mathbf{U}_m$ denotes
+$\mathbf{U}_1+...+\mathbf{U}_m$, with the $\oplus$ notation serving as an indication that this is a direct sum.
+
+
+#### 1.44 Condition for a direct sum
+Suppose $\mathbf{U}_1,...,\mathbf{U}_m$ are subspaces of $\mathbf{V}$. Then $\mathbf{U}_1+...+\mathbf{U}_m$ is a direct sum if and only if the only way to write 0 as a sum $u_1+...+u_m$, where each $u_j \in \mathbf{U}_j$ , is by taking each $u_j$ equal to 0.
+
+
+#### 1.45 Direct sum of two subspaces
+Suppose $\mathbf{U}$ and $\mathbf{W}$ are subspaces of $\mathbf{V}$. Then $\mathbf{U} + \mathbf{W}$  is a direct sum if and only if $\mathbf{U} \cup \mathbf{W} = \{ 0 \}$
+
+
 
 * * *
