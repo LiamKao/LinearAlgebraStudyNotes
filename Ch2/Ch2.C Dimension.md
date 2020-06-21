@@ -8,18 +8,18 @@ Any two bases of a finite-dimensional vector space have the same length.
 #### 2.36 Definition ***dimension***, dim V
 - The ***dimension*** of a finite-dimensional vector space is the length of
 any basis of the vector space.
-- The dimension of $\mathbf{V}$ (if $\mathbf{V}$ is finite-dimensional) is denoted by $dim\mathbf{V}$.
+- The dimension of $V$ (if $V$ is finite-dimensional) is denoted by $dimV$.
 
 #### 2.38 Dimension of a subspace
-If $\mathbf{V}$ is finite-dimensional and $\mathbf{U}$ is a subspace of $\mathbf{V}$, then $dim \mathbf{U}$ $\leq$ $dim \mathbf{V}$
+If $V$ is finite-dimensional and $U$ is a subspace of $V$, then $dim U$ $\leq$ $dim V$
 
 #### 2.39 Linearly independent list of the right length is a basis
-Suppose $\mathbf{V}$ is finite-dimensional. Then every linearly independent list of vectors in $\mathbf{V}$ with length $dim \mathbf{V}$ is a basis of $\mathbf{V}$.
+Suppose $V$ is finite-dimensional. Then every linearly independent list of vectors in $V$ with length $dim V$ is a basis of $V$.
 
 #### 2.42 Spanning list of the right length is a basis
-Suppose $\mathbf{V}$ is finite-dimensional. Then every spanning list of vectors in $\mathbf{V}$
-with length $dim \mathbf{V}$ is a basis of $\mathbf{V}$.
+Suppose $V$ is finite-dimensional. Then every spanning list of vectors in $V$
+with length $dim V$ is a basis of $V$.
 
 #### 2.43 Dimension of a sum
-If $\mathbf{U_1}$ and $\mathbf{U_2}$ are subspaces of a finite-dimensional vector space, then
-$$dim( \mathbf{U_1} +\mathbf{U_2}) =  dim\mathbf{U_1} + dim \mathbf{U_2} - dim( \mathbf{U_1} \cap \mathbf{U_2} )$$
+If $U_1$ and $U_2$ are subspaces of a finite-dimensional vector space, then
+$$dim( U_1 +U_2) =  dimU_1 + dim U_2 - dim( U_1 \cap U_2 )$$
