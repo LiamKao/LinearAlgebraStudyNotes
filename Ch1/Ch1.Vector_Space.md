@@ -12,7 +12,6 @@ Two lists are equal if and only if they have the same length and the same elemen
 
 * * *
 
-
 ### F<sup>n</sup>
 
 #### 1.10 Definition $\mathbf{F}^n$
