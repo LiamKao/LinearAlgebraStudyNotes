@@ -1,17 +1,6 @@
 # Vector Space
 
-## 1.A: R<sup>n</sup> and C<sup>n</sup>
-
-### Complex Numbers
-![](assets/markdown-img-paste-20200617190125779.png)
-
-![](assets/markdown-img-paste-20200617190200969.png)
-
-![](assets/markdown-img-paste-20200617190227345.png)
-
-![](assets/markdown-img-paste-20200617190259767.png)
-
-* * *
+## 1.A: $\mathbf{R}^n$ and $\mathbf{C}^n$
 
 ### Lists
 #### 1.8 Definition list, length
