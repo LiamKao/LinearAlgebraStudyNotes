@@ -14,8 +14,12 @@
 * * *
 
 ### Lists
+#### 1.8 Definition list, length
+Suppose $n$ is a nonnegative integer. A **list** of **length** $n$ is an ordered collection of $n$ elements (which might be numbers, other lists, or more
+abstract entities) separated by commas and surrounded by parentheses. A list of length $n$ looks like this:
+$$(x_1,...,x_n)$$
+Two lists are equal if and only if they have the same length and the same elements in the same order.
 
-![](assets/markdown-img-paste-20200617190331237.png)
 
 * * *
 
