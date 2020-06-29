@@ -1,3 +1,11 @@
+
+
+## links
+https://en.wikibooks.org/wiki/LaTeX/Mathematics
+
+
+## Chararcters
+
 $\mathbb{ABCD}$
 $\mathbb{abcd}$
 
@@ -46,3 +54,39 @@ E'&=\partial\times B - 4\pi j
 \right\}
 \qquad \text{Maxwell's equations}
 ~~~
+
+
+
+## Matrix
+
+$$
+A =
+\left[
+ \begin{matrix}
+   A_{1,1} & & ... & & A_{1,n}\\
+   A_{m,1} & & ... & & A_{m,n}
+  \end{matrix}
+\right]
+$$
+
+$$\Theta = \begin{pmatrix}\alpha & \beta\\
+\gamma & \delta
+\end{pmatrix}$$
+
+
+$$\begin{vmatrix}a & b\\
+c & d
+\end{vmatrix}=ad-bc$$
+
+$$
+A =
+  \begin{pmatrix}
+  t_{11} & t_{12} & t_{13} \\
+  t_{21} & t_{22} & t_{23} \\
+  t_{31} & t_{32} & t_{33}
+  \end{pmatrix}
+$$
+
+$$
+\begin{bmatrix} 0 & \cdots & 0 \\ \vdots & \ddots & \vdots \\ 0 & \cdots & 0 \end{bmatrix}
+$$
